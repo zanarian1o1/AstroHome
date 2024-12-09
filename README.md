@@ -29,16 +29,16 @@ To install the Astro Homepage extension, follow these steps:
 
 6. **Open a new tab in Chrome to see the Astro Homepage in action. You can start adding shortcuts right away!**
 
-##Usage
+## Usage
 To add a new shortcut, enter the shortcut name and URL in the provided input fields and click the "Add Shortcut" button.
 To remove a shortcut, click the three dots next to the shortcut button and select "Remove Shortcut."
 Access the settings panel by clicking the "Settings" button to customize the background color and shortcut colors.
 
-##Contributions are welcome! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
+## Contributions are welcome! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
 
-##License
+## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-##Acknowledgments
+## Acknowledgments
 Thanks to the open-source community for their contributions and support.
 Inspired by the need for a more customizable new tab experience in Chrome.
