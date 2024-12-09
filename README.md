@@ -41,7 +41,7 @@ Access the settings panel by clicking the "Settings" button to customize the bac
 
 ## License
 
-This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. You are free to share and adapt the work as long as you provide appropriate credit, do not use it for commercial purposes, and distribute your contributions under the same license. For more details, see the [LICENSE](https://github.com/zanarian1o1/AstroHome/blob/main/LICENSE.md) file.
+This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. You are free to share and adapt the work as long as you provide appropriate credit, do not use it for commercial purposes, and distribute your contributions under the same license. For more details, see the [LICENSE.md](https://github.com/zanarian1o1/AstroHome/blob/main/LICENSE.md) file.
 
 ## Acknowledgments
 Thanks to the open-source community for their contributions and support.
