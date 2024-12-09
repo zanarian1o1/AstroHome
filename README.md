@@ -34,7 +34,9 @@ To add a new shortcut, enter the shortcut name and URL in the provided input fie
 To remove a shortcut, click the three dots next to the shortcut button and select "Remove Shortcut."
 Access the settings panel by clicking the "Settings" button to customize the background color and shortcut colors.
 
+## 
 ## Contributions are welcome! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
