@@ -19,15 +19,15 @@ To install the Astro Homepage extension, follow these steps:
 
    ```bash
    git clone https://github.com/yourusername/astro-homepage.git
-2. **Open Chrome Extensions Page:
+2. **Open Chrome Extensions Page:**
 
-3. **Open Google Chrome and navigate to chrome://extensions/.
+3. **Open Google Chrome and navigate to chrome://extensions/.**
 
-4. **Toggle the "Developer mode" switch in the top right corner of the extensions page.
+4. **Toggle the "Developer mode" switch in the top right corner of the extensions page.**
 
-5. **Click on the "Load unpacked" button and select the folder where you downloaded the Astro Homepage extension.
+5. **Click on the "Load unpacked" button and select the folder where you downloaded the Astro Homepage extension.**
 
-6. **Open a new tab in Chrome to see the Astro Homepage in action. You can start adding shortcuts right away!
+6. **Open a new tab in Chrome to see the Astro Homepage in action. You can start adding shortcuts right away!**
 
 ##Usage
 To add a new shortcut, enter the shortcut name and URL in the provided input fields and click the "Add Shortcut" button.
@@ -39,6 +39,6 @@ Access the settings panel by clicking the "Settings" button to customize the bac
 ##License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-**Acknowledgments
+##Acknowledgments
 Thanks to the open-source community for their contributions and support.
 Inspired by the need for a more customizable new tab experience in Chrome.
