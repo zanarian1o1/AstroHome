@@ -6,9 +6,8 @@ Astro Homepage is a Google Chrome extension that enhances your new tab experienc
 
 - Add new shortcuts with a name and URL.
 - Remove existing shortcuts.
-- Customize the background color of the new tab.
-- Select and customize shortcut colors.
-- Responsive design that works on various screen sizes.
+- ⚠ Customize the background color of the new tab.
+- ⚠ Select and customize shortcut colors.
 
 ## Installation
 
@@ -46,3 +45,5 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 ## Acknowledgments
 Thanks to the open-source community for their contributions and support.
 Inspired by the need for a more customizable new tab experience in Chrome.
+
+⚠ : currently not working
