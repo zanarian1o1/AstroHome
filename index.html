@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- Link to the CSS file -->
+    <title>Shortcut Manager</title>
+</head>
+<body>
+    <h1>Shortcut Manager</h1>
+    <div id="shortcutContainer">
+        <div class="button-container">
+            <button id="settingsButton">Settings</button>
+            <button class="dots-button">...</button>
+        </div>
+        <div id="settingsPanel" style="display: none;">
+            <h2>Settings</h2>
+            <input type="text" placeholder="Add new shortcut...">
+            <button id="addShortcutButton">Add Shortcut</button>
+        </div>
+        <div id="shortcuts">
+            <!-- Shortcuts will be dynamically added here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

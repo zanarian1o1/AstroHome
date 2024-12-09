@@ -1,0 +1,133 @@
+body {
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* Light text */
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #ffffff; /* Light color for the heading */
+    width: 240px; /* Sets viewport width */
+    max-width: 1200px; /* Optional: Set a maximum width */
+    margin: 0 auto; /* Center the body */
+}
+
+h2 {
+    color: #ffffff; /* Light color for the heading */
+    width: 200px; /* Sets viewport width */
+    max-width: 1200px; /* Optional: Set a maximum width */
+    margin: 0 auto; /* Center the body */
+    font-size: 20px;
+}
+
+#shortcutContainer {
+    background-color: #1e1e1e; /* Darker background for shortcuts */
+    border: 1px solid #444444; /* Dark border */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+}
+
+#shortcutContainer a {
+    display: block;
+    margin: 5px 0;
+    color: #bb86fc; /* Light purple color for links */
+    text-decoration: none;
+}
+
+#shortcutContainer a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #bb86fc64; /* Dark purple on hover */
+}
+
+input {
+    background-color: #333333; /* Dark input background */
+    color: #ffffff; /* Light text in input */
+    border: 1px solid #444444; /* Dark border for input */
+    padding: 5px;
+    border-radius: 5px;
+    width: calc(100% - 12px); /* Full width input */
+}
+
+.button-container {
+    position: relative; /* Position relative for positioning the popup */
+    display: inline-block; /* Allow positioning */
+}
+
+button {
+    background-color: #bb86fc; /* Button color */
+    color: #ffffff; /* Button text color */
+    border: none;
+    width: 150px; /* Set a fixed width */
+    height: 50px; /* Set a fixed height */
+    padding: 0; /* Remove padding to ensure fixed size */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+    font-size: 16px; /* Font size */
+    position: relative; /* Position relative for the dot menu */
+    overflow: hidden; /* Ensure content does not overflow */
+    text-overflow: ellipsis; /* Optional: add ellipsis if text overflows */
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.custom-button {
+    background-color: #bb86fc; /* Default purple color */
+}
+
+button:hover {
+    background-color: #bb86fc64; /* Darker button on hover */
+}
+
+.dots-button {
+    background: none;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    position: absolute; /* Position absolute to place it correctly */
+    top: 6px; /* Adjust the vertical position */
+    right: 5px; /* Adjust the horizontal position */
+    font-size: 16px; /* Font size for the dots */
+    padding: 0; /* Remove padding to reduce the clickable area */
+    margin: 0; /* Remove margin to reduce the clickable area */
+    line-height: 1; /* Ensure the line height does not affect positioning */
+    border-radius: 5px; /* Optional: add rounded corners for better appearance */
+    height: 20px; /* Set a specific height */
+    width: 20px; /* Set a specific width */
+}
+
+.dots-button:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Optional: add a hover effect */
+}
+
+#settingsPanel {
+    background-color: #1e1e1e;
+    border: 1px solid #444444;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 100px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+}
+
+.popup-menu {
+    display: none; /* Initially hidden */
+    position: absolute;
+    background-color: #2e2e2e;
+    border: 1px solid #444444;
+    border-radius: 5px;
+    z-index: 1000; /* Correct z-index to ensure it appears above other elements */
+    padding: 10px;
+}
+
+.popup-menu a {
+    color: #bb86fc; /* Light purple color for popup links */
+    text-decoration: none;
+    display: block; /* Block display for links */
+    padding: 5px; /* Padding for clickable area */
+}
+
+.popup-menu a:hover {
+    background-color: #444444; /* Darker background on hover */
+}

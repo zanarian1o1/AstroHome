@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Astro homepage",
+  "version": "1.0.0",
+  "author": "zanarian",
+  "description": "Adds more shortcuts on a improved Google homepage.",
+  "permissions": [
+    "activeTab"
+  ],
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.google.com/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Add Quick Shortcuts"
+  }
+}

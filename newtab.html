@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astro Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> <!-- Link to the CSS file -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <div class="container mx-auto p-4">
+        <h2 class="text-3xl font-bold mb-4">Astro Home</h2>
+        <div class="mb-4">
+            <input type="text" id="shortcutName" placeholder="Shortcut Name" class="border p-2 rounded w-full mb-2">
+            <input type="text" id="shortcutUrl" placeholder="Shortcut URL" class="border p-2 rounded w-full mb-2">
+            <button id="addShortcut" class="bg-blue-500 text-white p-2 rounded w-full">Add Shortcut</button>
+        </div>
+        <div id="shortcutsList" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"></div>
+        
+        <!-- Settings Button and Panel -->
+        <button id="settingsButton" class="bg-gray-700 text-white p-2 rounded mt-4">Settings</button>
+        <div id="settingsPanel" class="bg-white p-4 rounded shadow mt-4" style="display: none;">
+            <h3 class="text-xl font-bold mb-4">Settings</h3>
+            <div id="colorOptions" class="mb-4">
+                <label for="colorPicker" class="block mb-2">Select Background Color:</label>
+                <input type="color" id="colorPicker" class="border p-2 rounded w-full">
+            </div>
+            <div id="shortcutSelection" class="mb-4">
+                <label for="shortcutSelect" class="block mb-2">Select Shortcut:</label>
+                <select id="shortcutSelect" class="border p-2 rounded w-full">
+                    <option value="">Select a shortcut</option>
+                </select>
+            </div>
+            <div id="shortcutColorOptions" class="mb-4">
+                <label for="shortcutColorPicker" class="block mb-2">Select Shortcut Color:</label>
+                <input type="color" id="shortcutColorPicker" class="border p-2 rounded w-full">
+            </div>
+            <button id="applySettings" class="bg-green-500 text-white p-2 rounded w-full">Apply</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
