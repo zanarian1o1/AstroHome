@@ -46,4 +46,6 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 Thanks to the open-source community for their contributions and support.
 Inspired by the need for a more customizable new tab experience in Chrome.
 
+
+##
 ⚠ : currently not working
